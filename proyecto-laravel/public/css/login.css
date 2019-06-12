@@ -1,0 +1,117 @@
+body {
+    -moz-animation-duration: 4s;
+    -moz-animation-name: bkchange;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+     -webkit-animation-duration: 4s;
+    -webkit-animation-name: bkchange;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+  }
+body,html {
+
+width:100%;
+height:100%;
+  }
+
+  @-moz-keyframes bkchange {
+    from {
+      background: #fd04d3;
+    }
+
+    to {
+      background: blue;
+    }
+  }
+  @-webkit-keyframes bkchange {
+    from {
+      background: blue;
+    }
+
+    to {
+      background:rgb(250, 6, 217);
+    }
+  }
+
+
+
+
+
+body{
+    background-color: rgb(255, 153, 0);
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.card-header{
+    margin-top: 10%;
+}
+
+.logo{
+    width: 40%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+
+
+.card{
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bkchange;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+     -webkit-animation-duration: 1s;
+    -webkit-animation-name: bkchange;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+
+    @-moz-keyframes bkchange {
+        from {
+          background: #0415fd;
+        }
+
+        to {
+          background: rgb(7, 97, 15);
+        }
+      }
+      @-webkit-keyframes bkchange {
+        from {
+          background: rgb(7, 97, 15);
+        }
+
+        to {
+          background:#0415fd;
+        }
+      }
+
+    /* background-color: rgb(255, 153, 0); */
+    border:none;
+}
+
+.card-header{
+    background-color: rgb(66, 64, 64);
+    margin-top: 5%;
+    color: aliceblue;
+
+
+
+}
+
+.card-body{
+    background-color: rgb(248, 247, 245);
+}
+
+h1{
+    color:aliceblue;
+}
+
+h2{
+    color:aliceblue;
+}
+
+.btn.btn-danger.btn-lg{
+    margin-left: 30%;
+}
