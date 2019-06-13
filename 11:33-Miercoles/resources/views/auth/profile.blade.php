@@ -9,7 +9,7 @@
 
       @csrf
       <!-- <a href="/login"><button class="btn btn-primary" type="submit">Salir</button></a> -->
-	  <!-- <button class="btn btn-success" type="submit">Salir</button>
+	  <!--<button class="btn btn-success" type="submit">Salir</button>
 	  <button class="btn btn-success" type="submit">Salir</button> -->
 
     <br>
